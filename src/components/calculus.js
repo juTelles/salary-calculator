@@ -4,10 +4,10 @@ export default class Calculus extends Component {
   render() {
     const { label, value } = this.props;
     return (
-      <div>
+      <div >
           <label>
-          <span>{label}</span>
-          <input type='text' readOnly disabled value={value} />
+          <span className="input-labels" >{label}</span>
+          <input className="inputs-div" type='text' readOnly disabled value={value} />
         </label>
       </div>
     )

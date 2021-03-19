@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import Calculus from './calculus';
+import Title from './title';
 import calculater from '../helpers/calculater'
 
 export default class SalaryCalculator extends Component {
@@ -45,6 +46,8 @@ export default class SalaryCalculator extends Component {
     const { inssBase, inssCalc, irrfBase, irrfCalc, liquidSalary } = calculations;
     return (
       <div>
+        <Title/>
+      <div className="calculator">
         <div>
           <input type="number" min="0" value={salary} placeholder=" " onChange={this.handleSalaryChange} />
         </div>
@@ -56,8 +59,7 @@ export default class SalaryCalculator extends Component {
           <Calculus value={liquidSalary} label="Salario Liquido" />
         </div>
       </div>
+    </div>
     )
   }
 }
-
-
