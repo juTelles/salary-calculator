@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/salary-calculator/static/css/main.946153c2.chunk.css",
-    "main.js": "/salary-calculator/static/js/main.fb08c9c8.chunk.js",
-    "main.js.map": "/salary-calculator/static/js/main.fb08c9c8.chunk.js.map",
+    "main.css": "/salary-calculator/static/css/main.3c4757a7.chunk.css",
+    "main.js": "/salary-calculator/static/js/main.86bc14f6.chunk.js",
+    "main.js.map": "/salary-calculator/static/js/main.86bc14f6.chunk.js.map",
     "runtime-main.js": "/salary-calculator/static/js/runtime-main.bee5d591.js",
     "runtime-main.js.map": "/salary-calculator/static/js/runtime-main.bee5d591.js.map",
     "static/css/2.36020323.chunk.css": "/salary-calculator/static/css/2.36020323.chunk.css",
     "static/js/2.44384d72.chunk.js": "/salary-calculator/static/js/2.44384d72.chunk.js",
     "static/js/2.44384d72.chunk.js.map": "/salary-calculator/static/js/2.44384d72.chunk.js.map",
     "index.html": "/salary-calculator/index.html",
-    "precache-manifest.132b8b977b0ca446f382c817a79ea1db.js": "/salary-calculator/precache-manifest.132b8b977b0ca446f382c817a79ea1db.js",
+    "precache-manifest.ecf2052d176dce8faca74ba52308f3f3.js": "/salary-calculator/precache-manifest.ecf2052d176dce8faca74ba52308f3f3.js",
     "service-worker.js": "/salary-calculator/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/salary-calculator/static/css/2.36020323.chunk.css.map",
-    "static/css/main.946153c2.chunk.css.map": "/salary-calculator/static/css/main.946153c2.chunk.css.map",
+    "static/css/main.3c4757a7.chunk.css.map": "/salary-calculator/static/css/main.3c4757a7.chunk.css.map",
     "static/js/2.44384d72.chunk.js.LICENSE.txt": "/salary-calculator/static/js/2.44384d72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bee5d591.js",
     "static/css/2.36020323.chunk.css",
     "static/js/2.44384d72.chunk.js",
-    "static/css/main.946153c2.chunk.css",
-    "static/js/main.fb08c9c8.chunk.js"
+    "static/css/main.3c4757a7.chunk.css",
+    "static/js/main.86bc14f6.chunk.js"
   ]
 }
