@@ -49,19 +49,4 @@ code {
   margin: 0px 5px;
   color: #26a69a;
 }
-@media (min-width: 800px) {
-  .calculator {
-    max-width: 600px;
-  }
-  .title-div h1 {
-    font-size: 36px;
-    margin: 25px auto;
-  }
-  .title-div h3 {
-    font-size: 20px;
-    margin: 20px auto 0 auto;
-  }
-  .inputs-div {
-    max-height: 100px;
-  }
-}
+
