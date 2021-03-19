@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dc4cbf0b2a2cffb8055e6249a49f91d",
+    "revision": "56ea83a58f8b31f25d8454fda1cfcefe",
     "url": "/salary-calculator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salary-calculator/static/css/2.36020323.chunk.css"
   },
   {
-    "revision": "a9c3c97a3deec15627e8",
-    "url": "/salary-calculator/static/css/main.3c4757a7.chunk.css"
+    "revision": "65c3fc6052fa80750592",
+    "url": "/salary-calculator/static/css/main.5330f040.chunk.css"
   },
   {
     "revision": "a6b267cde6d7ea3f7b9c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/salary-calculator/static/js/2.44384d72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9c3c97a3deec15627e8",
+    "revision": "65c3fc6052fa80750592",
     "url": "/salary-calculator/static/js/main.86bc14f6.chunk.js"
   },
   {
