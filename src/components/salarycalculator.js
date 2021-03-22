@@ -1,23 +1,22 @@
-
 import React, { Component } from 'react';
 import Calculus from './calculus';
 import Title from './title';
-import calculater from '../helpers/calculater'
+import calculater from '../helpers/calculater';
 
 export default class SalaryCalculator extends Component {
   constructor() {
     super();
 
     this.state = {
-      salary: "",
+      salary: '',
       calculations: {
-        inssBase: "",
-        inssCalc: "",
-        irrfBase: "",
-        irrfCalc: "",
-        liquidSalary: "",
-      }
-    }
+        inssBase: '',
+        inssCalc: '',
+        irrfBase: '',
+        irrfCalc: '',
+        liquidSalary: '',
+      },
+    };
   }
   componentDidUpdate(_previousProps, previousState) {
     const newSalary = this.state.salary;
@@ -32,34 +31,50 @@ export default class SalaryCalculator extends Component {
     const newSalary = Number(event.target.value);
     if (newSalary === 0) {
       this.setState({
-        salary: "",
+        salary: '',
       });
     } else {
       this.setState({
         salary: newSalary,
       });
     }
-  }
+  };
 
   render() {
     const { salary, calculations } = this.state;
-    const { inssBase, inssCalc, irrfBase, irrfCalc, liquidSalary } = calculations;
+    const {
+      inssBase,
+      inssCalc,
+      irrfBase,
+      irrfCalc,
+      liquidSalary,
+    } = calculations;
     return (
-      <div>
-        <Title/>
-      <div className="calculator">
-        <div>
-          <input type="number" min="0" value={salary} placeholder=" " onChange={this.handleSalaryChange} />
-        </div>
-        <div>
-          <Calculus value={inssBase} label="INSS Base" />
-          <Calculus value={inssCalc} label="Desconto INSS" />
-          <Calculus value={irrfBase} label="IRRF Base" />
-          <Calculus value={irrfCalc} label="Desconto IRRF" />
-          <Calculus value={liquidSalary} label="Salario Liquido" />
+      <div className="background">
+        <div className="container">
+          <div className="content-div">
+            <Title />
+            <div className="calculator">
+              <div>
+                <input
+                  type="number"
+                  min="0"
+                  value={salary}
+                  placeholder=" "
+                  onChange={this.handleSalaryChange}
+                />
+              </div>
+              <div>
+                <Calculus value={inssBase} label="INSS Base" />
+                <Calculus value={inssCalc} label="Desconto INSS" />
+                <Calculus value={irrfBase} label="IRRF Base" />
+                <Calculus value={irrfCalc} label="Desconto IRRF" />
+                <Calculus value={liquidSalary} label="Salario Liquido" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    )
+    );
   }
 }

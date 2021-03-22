@@ -1,3 +1,6 @@
+html {
+  font-size: 18px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,13 +8,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #26a69a;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
   max-width: 100vw;
   max-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #383838;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 .default-flex-row {
   display: flex;
@@ -22,97 +30,88 @@ code {
 .padding {
   padding: 10px;
 }
+.background {
+  padding-top: 30px;
+  width:100%;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: #f5f5f5;
+}
+.content-div {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid rgba(204, 99, 50, 0.782);
+  padding: 20px;
+}
 .title-div {
-  max-width: 85vw;
-  margin: 10px auto;
-  color: #f5f5f5;
+  margin: 0px auto 10px auto;
   text-align: center;
 }
 .title-div h1 {
-  font-size: 24px;
-  margin: 18px auto;
+  color: rgba(204, 99, 50, 0.782);
+  font-size: 1.3rem;
+  margin: 0px auto 18px auto;
+  font-weight: bold;
 }
 .title-div h3 {
-  font-size: 16px;
+  font-size: 0.8rem;
   margin: 10px auto 0 auto;
 }
 .calculator {
-  max-width: 80vw;
-  max-height: 90vh;
-  margin: 10px auto;
+  margin: 5px auto;
   background-color: #f5f5f5;
 }
-.inputs-div {
-  max-height: 20px;
+.input-divs {
+  font-size: 0.8rem;
 }
 .input-labels {
   margin: 0px 5px;
-  color: #26a69a;
+  color: rgba(204, 99, 50, 0.782);
+  font-weight: bold;
 }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #26a69a;
-  max-width: 100vw;
-  max-height: 100vh;
+input {
+  max-height: 40px;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  font-size: 0.8rem;
 }
-.default-flex-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 2px solid rgba(204, 99, 50, 0.782);
+  box-shadow: none;
+  font-size: 0.8rem;
 }
-.padding {
-  padding: 10px;
-}
-.title-div {
-  max-width: 85vw;
-  margin: 10px auto;
-  color: #f5f5f5;
-  text-align: center;
-}
-.title-div h1 {
-  font-size: 24px;
-  margin: 18px auto;
-}
-.title-div h3 {
-  font-size: 16px;
-  margin: 10px auto 0 auto;
-}
-.calculator {
-  max-width: 80vw;
-  max-height: 90vh;
-  margin: 10px auto;
-  background-color: #f5f5f5;
-}
-.inputs-div {
-  max-height: 20px;
-}
-.input-labels {
-  margin: 0px 5px;
-  color: #26a69a;
+input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=text]:not(.browser-default):disabled, input[type=text]:not(.browser-default)[readonly="readonly"], input[type=password]:not(.browser-default):disabled, input[type=password]:not(.browser-default)[readonly="readonly"], input[type=email]:not(.browser-default):disabled, input[type=email]:not(.browser-default)[readonly="readonly"], input[type=url]:not(.browser-default):disabled, input[type=url]:not(.browser-default)[readonly="readonly"], input[type=time]:not(.browser-default):disabled, input[type=time]:not(.browser-default)[readonly="readonly"], input[type=date]:not(.browser-default):disabled, input[type=date]:not(.browser-default)[readonly="readonly"], input[type=datetime]:not(.browser-default):disabled, input[type=datetime]:not(.browser-default)[readonly="readonly"], input[type=datetime-local]:not(.browser-default):disabled, input[type=datetime-local]:not(.browser-default)[readonly="readonly"], input[type=tel]:not(.browser-default):disabled, input[type=tel]:not(.browser-default)[readonly="readonly"], input[type=number]:not(.browser-default):disabled, input[type=number]:not(.browser-default)[readonly="readonly"], input[type=search]:not(.browser-default):disabled, input[type=search]:not(.browser-default)[readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+  color: rgb(77, 77, 77);
+  font-size: 0.8rem;
 }
 @media (min-width: 800px) {
-  .calculator {
-    max-width: 600px;
+  html {
+    font-size: 20px;
+  }
+  .content-div {
+    width: 80%;
   }
   .title-div h1 {
     font-size: 36px;
-    margin: 25px auto;
+    margin: 0px auto 20px auto;
   }
   .title-div h3 {
     font-size: 20px;
-    margin: 20px auto 0 auto;
+    margin: 0px auto 0px auto;
   }
   .inputs-div {
     max-height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 24px;
+  }
+  .content-div {
+    width: 70%;
+    max-width: 800px;
+  }
+  input {
+    max-height: 60px;
   }
 }
