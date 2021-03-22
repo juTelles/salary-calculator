@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/salary-calculator/static/css/main.d10cebef.chunk.css",
-    "main.js": "/salary-calculator/static/js/main.9538fdca.chunk.js",
-    "main.js.map": "/salary-calculator/static/js/main.9538fdca.chunk.js.map",
+    "main.css": "/salary-calculator/static/css/main.29a8a30e.chunk.css",
+    "main.js": "/salary-calculator/static/js/main.ea7eed04.chunk.js",
+    "main.js.map": "/salary-calculator/static/js/main.ea7eed04.chunk.js.map",
     "runtime-main.js": "/salary-calculator/static/js/runtime-main.daa002a3.js",
     "runtime-main.js.map": "/salary-calculator/static/js/runtime-main.daa002a3.js.map",
     "static/css/2.36020323.chunk.css": "/salary-calculator/static/css/2.36020323.chunk.css",
     "static/js/2.eaf49647.chunk.js": "/salary-calculator/static/js/2.eaf49647.chunk.js",
     "static/js/2.eaf49647.chunk.js.map": "/salary-calculator/static/js/2.eaf49647.chunk.js.map",
     "index.html": "/salary-calculator/index.html",
-    "precache-manifest.c0b4953b12028af0d5bc8bf4dc249298.js": "/salary-calculator/precache-manifest.c0b4953b12028af0d5bc8bf4dc249298.js",
+    "precache-manifest.8e6e78426cc64c70a667588a2bc82c51.js": "/salary-calculator/precache-manifest.8e6e78426cc64c70a667588a2bc82c51.js",
     "service-worker.js": "/salary-calculator/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/salary-calculator/static/css/2.36020323.chunk.css.map",
-    "static/css/main.d10cebef.chunk.css.map": "/salary-calculator/static/css/main.d10cebef.chunk.css.map",
+    "static/css/main.29a8a30e.chunk.css.map": "/salary-calculator/static/css/main.29a8a30e.chunk.css.map",
     "static/js/2.eaf49647.chunk.js.LICENSE.txt": "/salary-calculator/static/js/2.eaf49647.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.daa002a3.js",
     "static/css/2.36020323.chunk.css",
     "static/js/2.eaf49647.chunk.js",
-    "static/css/main.d10cebef.chunk.css",
-    "static/js/main.9538fdca.chunk.js"
+    "static/css/main.29a8a30e.chunk.css",
+    "static/js/main.ea7eed04.chunk.js"
   ]
 }
